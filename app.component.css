@@ -1,0 +1,57 @@
+.containerInput {
+  border-style: solid;
+  border-radius: 4px red;
+  padding: 60px;
+  max-width: fit-content;
+  background-color: blanchedalmond;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+
+.containerResults {
+  border-style: solid;
+  border-radius: 4px green;
+  padding: 60px;
+  max-width: 65%;
+  background-color: antiquewhite;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.myButton {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+.myDelButton {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.myInput {
+  padding: 10px;
+}
+
+.myList {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+.header {
+  background-color: yellow;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.listHeader {
+  margin-left: auto;
+  margin-right: auto;
+}

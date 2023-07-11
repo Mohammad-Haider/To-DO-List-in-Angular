@@ -1,0 +1,24 @@
+<h1 class="header">To-Do-List in Angular</h1>
+<div class="containerInput">
+  <h1>{{ title }}</h1>
+  <br /><br />
+  <input class="myInput" type="text" placeholder="write here" #box1 />
+  <br />
+  <br />
+  <button class="myButton" (click)="getData(box1.value)">Add to my List</button>
+</div>
+
+<h1 class="header">Results will be displayed below:</h1>
+
+<div *ngIf="flag" class="containerResults">
+  <h1 class="listHeader">My List</h1>
+  <ul *ngFor="let item of list; index as i">
+    <li class="myList">
+      {{ item.my_data }}
+      <button class="myDelButton" (click)="removeItem(i)">Remove</button>
+    </li>
+  </ul>
+</div>
+<br />
+<br />
+<br />
